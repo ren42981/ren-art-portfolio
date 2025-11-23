@@ -8,7 +8,7 @@
 .body nav{
     margin:0px;
     padding:0px;
-    position: sticky; 
+    max-width:800;
     top:0;     
     z-index: 1000;
     height:100px;
@@ -39,7 +39,7 @@ nav img{
     color:antiquewhite;
     font-family:Montserrat;
     font-weight:900;
-    font-size: 30px;
+    font-size: 20;
 }
 .nav-link:hover{
     background-color: antiquewhite;
@@ -53,9 +53,10 @@ nav img{
 /*body css*/
 
 main{
-    margin:20px;
+    margin:30px;
     padding:20px;
 }
+
 .artcarousel{
     overflow: hidden;
     display: flex;
@@ -86,11 +87,13 @@ main{
 
 main img{
     border-radius: 5px;
+    
 }
 article img{
     margin: auto;
     border: 3PX SOLID #a32e48;
     border-radius: 5px;
+   
 
 }
 
@@ -116,7 +119,7 @@ article .card{
 
 article{
      margin-top:60px;
-     text-align: justify;
+
      
 }
 article .card:hover{
@@ -264,7 +267,7 @@ padding: 10px;
 }
 
 article p{
-    font-size:25px;
+    font-size:20px;
     margin:10px;
 }
 
