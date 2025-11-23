@@ -11,49 +11,50 @@
     position:sticky;
     top:0;     
     z-index: 1000;
-    height:100px;
+    height:50px;
     
 }
 
-nav img{
-    border: 2px solid antiquewhite;
-    border-radius: 5px;
-    
-  
-}
 .container-fluid{
     background-color:  #710627;
-    padding-top:10px;
+    padding-top:20px;
+
+  
   
 }
 .nav-link{
-    padding:20px;
-    margin:20px;
+    padding-left:10px;
+    padding-right:10px;
+    margin:5px;
+      margin-bottom:10px;
     color:antiquewhite;
     font-family: Montserrat;
-    font-size:20px;
+    font-size:15px;
 }
 .navbar-brand{
-    padding:20px;
-    margin:10px;
+    padding-left:10px;
+    padding-right:10px;
+    margin:5px;
+      margin-bottom:10px;
     color:antiquewhite;
     font-family:Montserrat;
     font-weight:900;
-    font-size: 20;
+    font-size: 15;
 }
 .nav-link:hover{
     background-color: antiquewhite;
     color:#6c0e23;
     border-radius: 10px;
-    padding:20px;
-    margin:20px;
+     padding-left:10px;
+    padding-right:10px;
+    margin-bottom:10px;
     transition: ease;
     transition-duration: 0.3s;
 }
 /*body css*/
 
 main{
-    margin:30px;
+    margin:0px;
     padding:20px;
 }
 
@@ -119,6 +120,7 @@ article .card{
 
 article{
      margin-top:60px;
+    
 
      
 }
@@ -142,7 +144,7 @@ article .card:hover{
 
 section{
    
-    margin:40px;
+    margin: 20px;
     padding:20px;
     border: solid 1px;
     border-radius: 5px;
@@ -165,7 +167,7 @@ section:hover{
     justify-content: center;
 }
 article .card{
-    margin: 20px;
+    margin: 10px;
     padding:40px;
     margin-top: 10px;
     margin-bottom:40px;
@@ -192,7 +194,7 @@ article .card{
 
 footer{
 
-    margin:40px;
+    margin:20px;
     padding:20px;
     display: flex;
     justify-content: center;
