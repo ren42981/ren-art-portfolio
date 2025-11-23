@@ -164,9 +164,17 @@ section:hover{
     padding:20px;
     justify-content: center;
 }
-.card{
+article .card{
     margin: 20px;
     padding:40px;
+    margin-top: 10px;
+    margin-bottom:40px;
+    justify-content: space-evenly;
+}
+
+ .card{
+  
+    padding:10px;
     margin-top: 10px;
     margin-bottom:40px;
     justify-content: space-evenly;
