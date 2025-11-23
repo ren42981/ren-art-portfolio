@@ -1,0 +1,273 @@
+*{
+    color:#710627;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+.body nav{
+    margin:0px;
+    padding:0px;
+    position: sticky; 
+    top:0;     
+    z-index: 1000;
+    height:100px;
+    
+}
+
+nav img{
+    border: 2px solid antiquewhite;
+    border-radius: 5px;
+    
+  
+}
+.container-fluid{
+    background-color:  #710627;
+    padding-top:10px;
+  
+}
+.nav-link{
+    padding:20px;
+    margin:20px;
+    color:antiquewhite;
+    font-family: Montserrat;
+    font-size:20px;
+}
+.navbar-brand{
+    padding:20px;
+    margin:10px;
+    color:antiquewhite;
+    font-family:Montserrat;
+    font-weight:900;
+    font-size: 30px;
+}
+.nav-link:hover{
+    background-color: antiquewhite;
+    color:#6c0e23;
+    border-radius: 10px;
+    padding:20px;
+    margin:20px;
+    transition: ease;
+    transition-duration: 0.3s;
+}
+/*body css*/
+
+main{
+    margin:20px;
+    padding:20px;
+}
+.artcarousel{
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+    flex-flow:row wrap;
+    padding:30px;
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: lightgray;
+   
+}
+.artcarousel:hover{
+   
+    border: 3px solid;
+    border-color:#a32e48;
+    transition: ease;
+    transition-duration: 0.1s;
+}
+
+.features-header{
+     padding:20px;
+    text-align: left;
+}
+.features-container {
+   padding:20px;
+   
+}
+
+main img{
+    border-radius: 5px;
+}
+article img{
+    margin: auto;
+    border: 3PX SOLID #a32e48;
+    border-radius: 5px;
+
+}
+
+article h5{
+    margin:10px;
+    
+}
+article p{
+    margin:10px;
+}
+.card-img-top{
+    border: 3PX SOLID #a32e48;
+    border-radius: 5px;
+    margin: auto;
+    
+}
+
+article .card{
+    width: 2000px;
+    justify-content: space-evenly;
+
+}
+
+article{
+     margin-top:60px;
+     text-align: justify;
+     
+}
+article .card:hover{
+    border: 3px solid;
+    border-color:#a32e48;
+    left:0px;
+    top:0px;
+    box-shadow: none;
+    transition: ease;
+    transition-duration: 0.1s;
+
+}
+.about-me {
+    padding:20px;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+}
+
+section{
+   
+    margin:40px;
+    padding:20px;
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: lightgray;
+
+}
+section:hover{
+    border: 3px solid;
+    border-color:#a32e48;
+    transition: ease;
+    transition-duration: 0.1s;
+}
+.products-container {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.product-header{
+    padding:20px;
+    justify-content: center;
+}
+.card{
+    margin: 20px;
+    padding:40px;
+    margin-top: 10px;
+    margin-bottom:40px;
+    justify-content: space-evenly;
+}
+.card:hover{
+    left:3px;
+    top:3px;
+    box-shadow: 5px 5px #a32e48;
+    transition: ease;
+    transition-duration: 0.3s;
+
+}
+
+
+
+footer{
+
+    margin:40px;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: lightgray;
+}
+
+footer:hover{
+   
+    border: 3px solid;
+    border-color:#a32e48;
+    transition: ease;
+    transition-duration: 0.1s;
+}
+.contact-us-header{
+padding:20px;
+
+}
+
+.contact-us-body{
+padding:20px;
+}
+
+
+.buttons a{
+    border:solid 1px #6c0e23;
+    background-color: #6c0e23;
+    margin-bottom:10px;
+    margin-top:10px;
+    
+}
+
+.buttons a:hover{
+    border:solid 1px #6c0e23;
+    background-color: antiquewhite;
+    color: #6c0e23;
+    transition: ease;
+    transition-duration: 0.3s;
+}
+/*image styles*/
+.logo{
+    margin:20px;
+    margin-left: 30px;
+}
+
+
+/*text styles*/
+
+footer p{
+   
+font-family: Montserrat;
+font-size:20px;
+padding: 10px;
+
+}
+h5,h2 {
+font-family:Montserrat;
+font-weight: 900;
+font-size: 40px;
+color:#710627;
+padding: 10px;
+}
+
+p{
+font-family: Montserrat;
+font-size:18px;
+padding: 10px;
+}
+
+.card li{
+    font-family: Montserrat;
+    color:#710627;
+}
+
+.card-text P{
+    font-family: Montserrat;
+    color:#710627;
+}
+
+article p{
+    font-size:25px;
+    margin:10px;
+}
+
+footer a{
+    font-size:30px;
+}
