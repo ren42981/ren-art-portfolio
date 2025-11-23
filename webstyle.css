@@ -8,7 +8,7 @@
 .body nav{
     margin:0px;
     padding:0px;
-    max-width:800;
+    position:sticky;
     top:0;     
     z-index: 1000;
     height:100px;
